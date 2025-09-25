@@ -1,0 +1,114 @@
+# ROS2 build artifacts
+build/
+devel/
+install/
+log/
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+CMakeCache.txt
+CMakeFiles/
+CTestConfiguration.ini
+CTestCustom.cmake
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.cmake
+!CMakeLists.txt
+compile_commands.json
+
+# Generated message/service files
+*__rosidl_*
+msg_gen/
+srv_gen/
+
+# Colcon specific files
+COLCON_IGNORE
+*.last
+colcon_build.rc
+colcon_command_prefix_*.sh
+colcon_command_prefix_*.sh.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Eclipse CDT
+.cproject
+.project
+.settings/
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# Backup files
+*.orig
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Core dumps
+core
+core.*
+
+# GDB history
+.gdb_history
+
+# Valgrind output
+*.valgrind
+
+# Profiling data
+*.prof
+gmon.out
+
+# Documentation build
+doc/html/
+doc/latex/
+
+# Test results
+test_results/
+*.test
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# ROS bag files (optional - uncomment if you don't want to track bag files)
+# *.bag
+
+# Launch file logs
+*.log
+
+# Ament specific
+ament_cmake_core/
+ament_cmake_environment_hooks/
+ament_cmake_index/
+ament_cmake_package_templates/
+ament_cmake_uninstall_target/
+ament_lint_cmake/
+ament_xmllint/
