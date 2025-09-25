@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:14 (add_subdirectory):
+  add_subdirectory given source "external/joystick" which is not an existing
+  directory.
+
+[0m
