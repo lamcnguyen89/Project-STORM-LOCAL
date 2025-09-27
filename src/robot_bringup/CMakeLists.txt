@@ -34,7 +34,9 @@ install(DIRECTORY config/
 )
 
 # Install scripts
-install(PROGRAMS scripts/test_cmd_vel_mux.sh
+install(PROGRAMS 
+  scripts/test_cmd_vel_mux.sh
+  scripts/simple_cmd_vel_mux.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
