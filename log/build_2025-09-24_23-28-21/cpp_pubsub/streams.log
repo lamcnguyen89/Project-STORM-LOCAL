@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub -- -j32 -l32
+[0.058s] [ 50%] Built target talker
+[0.061s] [100%] Built target listener
+[0.076s] Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub -- -j32 -l32
+[0.087s] Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub
+[0.093s] -- Install configuration: ""
+[0.093s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.094s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.094s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.095s] -- Installing: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.095s] -- Up-to-date: /home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.097s] Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub

@@ -1,0 +1,9 @@
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/uninstall.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/sensor_processing_uninstall.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/test.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/edit_cache.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/rebuild_cache.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/list_install_components.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/install.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/install/local.dir
+/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing/CMakeFiles/install/strip.dir

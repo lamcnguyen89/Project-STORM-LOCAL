@@ -1,0 +1,509 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78f8cff47a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78f8cff47c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78f8cff47c70>>)
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivetrain' with type 'ros.ament_cmake' and name 'drivetrain'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/drivetrain_interfaces) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drivetrain_interfaces' with type 'ros.ament_cmake' and name 'drivetrain_interfaces'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_control) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_control' with type 'ros.ament_cmake' and name 'joystick_control'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control' with type 'ros.ament_cmake' and name 'motor_control'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_processing) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_processing' with type 'ros.ament_cmake' and name 'sensor_processing'
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'drivetrain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'drivetrain_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'drivetrain_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/motor_control', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'sensor_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/sensor_processing', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'joystick_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/joystick_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control', 'merge_install': False, 'path': '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/joystick_control', 'symlink_install': False, 'test_result_base': None}
+[0.302s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.303s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain_interfaces' with build type 'ament_cmake'
+[0.303s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain_interfaces'
+[0.306s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/cpp_pubsub' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/cpp_pubsub'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/motor_control' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/motor_control'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/robot_bringup' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/robot_bringup'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/sensor_processing' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/sensor_processing'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain_interfaces -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub -- -j32 -l32
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/motor_control -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/sensor_processing -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub -- -j32 -l32
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub
+[0.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/cpp_pubsub
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub' for CMake module files
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub' for CMake config files
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/bin'
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/python3.10/site-packages'
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/bin'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub' for CMake module files
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub' for CMake config files
+[0.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/bin'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/lib/python3.10/site-packages'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/bin'
+[0.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/motor_control -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control -- -j32 -l32
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup -- -j32 -l32
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control -- -j32 -l32
+[0.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control
+[0.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control' for CMake module files
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/motor_control
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/hook/cmake_prefix_path.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/hook/cmake_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/hook/cmake_prefix_path.sh'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/bin'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/lib/pkgconfig/motor_control.pc'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/lib/python3.10/site-packages'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/bin'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.sh'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.bash'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.zsh'
+[0.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/colcon-core/packages/motor_control)
+[0.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'cmake_prefix_path')
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/hook/cmake_prefix_path.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/hook/cmake_prefix_path.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/hook/cmake_prefix_path.sh'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/lib/pkgconfig/motor_control.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/lib/python3.10/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/bin'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.sh'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.bash'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/motor_control/package.zsh'
+[0.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/motor_control/share/colcon-core/packages/motor_control)
+[0.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/sensor_processing -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing
+[0.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing -- -j32 -l32
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup -- -j32 -l32
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup
+[0.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain
+[0.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain -- -j32 -l32
+[0.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup' for CMake module files
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/robot_bringup
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup' for CMake config files
+[0.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/bin'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/lib/python3.10/site-packages'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/bin'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.sh'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.bash'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[0.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup' for CMake module files
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup' for CMake config files
+[0.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/bin'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/lib/python3.10/site-packages'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/bin'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.sh'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.bash'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/robot_bringup/package.zsh'
+[0.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing -- -j32 -l32
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain -- -j32 -l32
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain
+[0.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_processing)
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing' for CMake module files
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/sensor_processing
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing' for CMake config files
+[0.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_processing', 'cmake_prefix_path')
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/hook/cmake_prefix_path.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/hook/cmake_prefix_path.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/hook/cmake_prefix_path.sh'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/bin'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/lib/pkgconfig/sensor_processing.pc'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/lib/python3.10/site-packages'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/bin'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.bash'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.zsh'
+[0.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/colcon-core/packages/sensor_processing)
+[0.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_processing)
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing' for CMake module files
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing' for CMake config files
+[0.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_processing', 'cmake_prefix_path')
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/hook/cmake_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/hook/cmake_prefix_path.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/hook/cmake_prefix_path.sh'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/bin'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/lib/pkgconfig/sensor_processing.pc'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/lib/python3.10/site-packages'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/bin'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.ps1'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.sh'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.bash'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/sensor_processing/package.zsh'
+[0.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/sensor_processing/share/colcon-core/packages/sensor_processing)
+[0.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain)
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain' for CMake module files
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain' for CMake config files
+[0.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'cmake_prefix_path')
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.sh'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/bin'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/lib/pkgconfig/drivetrain.pc'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/lib/python3.10/site-packages'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/bin'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.sh'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.bash'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.zsh'
+[0.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/colcon-core/packages/drivetrain)
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain)
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain' for CMake module files
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain' for CMake config files
+[0.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain', 'cmake_prefix_path')
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.dsv'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/hook/cmake_prefix_path.sh'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/bin'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/lib/pkgconfig/drivetrain.pc'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/lib/python3.10/site-packages'
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/bin'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.sh'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.bash'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/drivetrain/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain/share/colcon-core/packages/drivetrain)
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/drivetrain_interfaces -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces -- -j32 -l32
+[2.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces -- -j32 -l32
+[2.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces
+[2.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain_interfaces)
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces' for CMake module files
+[2.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/drivetrain_interfaces
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces' for CMake config files
+[2.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain_interfaces', 'cmake_prefix_path')
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/cmake_prefix_path.ps1'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/cmake_prefix_path.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/cmake_prefix_path.sh'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib'
+[2.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain_interfaces', 'ld_library_path_lib')
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/ld_library_path_lib.ps1'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/ld_library_path_lib.dsv'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/ld_library_path_lib.sh'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/bin'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib/pkgconfig/drivetrain_interfaces.pc'
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib/python3.10/site-packages'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/bin'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.ps1'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.dsv'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.sh'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.zsh'
+[2.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/colcon-core/packages/drivetrain_interfaces)
+[2.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drivetrain_interfaces)
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces' for CMake module files
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces' for CMake config files
+[2.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain_interfaces', 'cmake_prefix_path')
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/cmake_prefix_path.ps1'
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/cmake_prefix_path.dsv'
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/cmake_prefix_path.sh'
+[2.581s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib'
+[2.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('drivetrain_interfaces', 'ld_library_path_lib')
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/ld_library_path_lib.ps1'
+[2.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/ld_library_path_lib.dsv'
+[2.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/hook/ld_library_path_lib.sh'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/bin'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib/pkgconfig/drivetrain_interfaces.pc'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib/python3.10/site-packages'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/bin'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.ps1'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.dsv'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.sh'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.bash'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/drivetrain_interfaces/package.zsh'
+[2.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/share/colcon-core/packages/drivetrain_interfaces)
+[2.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/joystick_control' with build type 'ament_cmake'
+[2.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/joystick_control'
+[2.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/joystick_control': AMENT_PREFIX_PATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/joystick_control -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control
+[3.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/build/joystick_control' returned '1': AMENT_PREFIX_PATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/drivetrain_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/malneyugnfl/Desktop/Project-STORM-LOCAL/src/joystick_control -DCMAKE_INSTALL_PREFIX=/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control
+[3.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_control)
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control' for CMake module files
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control' for CMake config files
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/bin'
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/lib/pkgconfig/joystick_control.pc'
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/lib/python3.10/site-packages'
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/bin'
+[3.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/share/joystick_control/package.ps1'
+[3.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/share/joystick_control/package.dsv'
+[3.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/share/joystick_control/package.sh'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/share/joystick_control/package.bash'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/share/joystick_control/package.zsh'
+[3.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/joystick_control/share/colcon-core/packages/joystick_control)
+[3.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.642s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.647s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.647s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.656s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/local_setup.ps1'
+[3.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/_local_setup_util_ps1.py'
+[3.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/setup.ps1'
+[3.660s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/local_setup.sh'
+[3.661s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/_local_setup_util_sh.py'
+[3.662s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/setup.sh'
+[3.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/local_setup.bash'
+[3.663s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/setup.bash'
+[3.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/local_setup.zsh'
+[3.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/malneyugnfl/Desktop/Project-STORM-LOCAL/install/setup.zsh'
